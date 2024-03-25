@@ -1,0 +1,134 @@
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E6E6DD;
+}
+
+/* Homepage styling */
+.homepage {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}
+
+.logo-container {
+  float: left;
+}
+
+.content-container {
+  text-align: center;
+}
+
+.paragraph-text {
+  font-size: 18px;
+}
+
+/* Style for the Get Started button */
+.get-started-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8C52FF;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+/* Hover state for the Get Started button */
+.get-started-button:hover {
+  background-color: #6A32B7; /* Different shade of purple */
+}
+
+.logo {
+  margin-bottom: 100px;
+  width: 500px; 
+  height: auto;
+}
+
+/* Task page styling */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Header Styles */
+.header {
+  background-color: #6c63ff; 
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top-left-radius: 8px; 
+  border-top-right-radius: 8px;
+}
+
+/* Task Form Styles */
+.task-form {
+  margin-bottom: 20px;
+}
+
+.task-form input[type="text"] {
+  width: calc(100% - 85px); 
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-color: #574fc6; 
+}
+
+/* Task List Styles */
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  background-color: #fff; 
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-list li:last-child {
+  border-bottom: none;
+}
+
+.task-list li span {
+  flex-grow: 1;
+}
+
+.task-list li button {
+  background-color: #f44336; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.task-list li button:hover {
+  background-color: #d32f2f; 
+}
+
+
