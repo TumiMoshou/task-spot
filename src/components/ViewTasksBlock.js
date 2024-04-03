@@ -1,10 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 
 const ViewTasksBlock = () => {
     return (
-        <div>
-            <h3>View Tasks</h3>
-            <button>View Tasks</button>
+        <div className="view-tasks-container">
+            <Link to="/view-tasks" className="view-tasks-button">View Tasks</Link>
         </div>
     );
 }

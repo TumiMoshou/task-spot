@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 
 const AddTaskBlock = () => {
     return (
-        <div>
-            <h3>Add Task</h3>
-            <button>Add Task</button>
+        <div className="add-task-container">
+            <Link to="/task-form" className="add-task-button">+ Add Task</Link>
         </div>
     );
 }
 
 export default AddTaskBlock;
+
