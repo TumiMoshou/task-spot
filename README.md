@@ -19,7 +19,7 @@ Task Spot understands that completing tasks is just one aspect of productivity. 
 
 ## Screenshots
 
-![Task Spot Welcome Page](images/task-spot-welcome-page.png)
+![Task Spot Welcome Page](public/images/task-spot-welcome-page.png)
 
 ## Usage
 
