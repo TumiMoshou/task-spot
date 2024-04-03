@@ -5,7 +5,7 @@ Task Spot is a task management application that I designed to help users organiz
 ## Features
 
 - **Task Creation**: Easily create new tasks with detailed information such as name, category, due date, start and end time, and description.
-- **Task Viewing**: View all created tasks in a user-friendly interface, categorized by status (completed/incomplete).
+- **Task Viewing**: View all created tasks in a user-friendly interface, categorized by status.
 - **Task Completion**: Mark tasks as complete to track progress.
 - **Motivational Quotes**: Instead of emphasizing task completion, Task Spot provides users with motivational quotes to encourage positive thinking and self-worth.
 
