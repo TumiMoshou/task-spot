@@ -29,7 +29,7 @@ Task Spot understands that completing tasks is just one aspect of productivity. 
 
 ## Deployed Site
 
-The application is deployed and accessible on [Netlify](https://660cf483a926d3917f9a7f80--rococo-nasturtium-b6f3ad.netlify.app/).
+The application is deployed and accessible on [Netlify](https://rococo-nasturtium-b6f3ad.netlify.app).
 
 ## Technologies Used
 
